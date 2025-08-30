@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Koshi Pradesh Tourism Design System */
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 210 40% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 40% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 40% 8%;
+
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 210 40% 8%;
+
+    --muted: 210 40% 94%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 32 95% 44%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 142 76% 36%;
+
+    --radius: 0.75rem;
+
+    /* Tourism specific colors */
+    --mountain: 210 20% 25%;
+    --mountain-foreground: 0 0% 98%;
+    --forest: 120 60% 30%;
+    --forest-foreground: 0 0% 98%;
+    --water: 200 100% 35%;
+    --water-foreground: 0 0% 98%;
+    --cultural: 25 75% 47%;
+    --cultural-foreground: 0 0% 98%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(142 76% 36%) 0%, hsl(32 95% 44%) 100%);
+    --gradient-mountain: linear-gradient(180deg, hsl(210 20% 25%) 0%, hsl(210 30% 15%) 100%);
+    --gradient-overlay: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+
+    /* Shadows */
+    --shadow-soft: 0 2px 10px hsl(210 40% 8% / 0.08);
+    --shadow-medium: 0 8px 30px hsl(210 40% 8% / 0.12);
+    --shadow-large: 0 20px 40px hsl(210 40% 8% / 0.15);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 210 40% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 210 30% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 210 30% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 210 30% 18%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 210 30% 18%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 32 95% 44%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 30% 18%;
+    --input: 210 30% 18%;
+    --ring: 142 76% 36%;
+
+    /* Dark mode specific */
+    --mountain: 210 30% 35%;
+    --forest: 120 50% 25%;
+    --water: 200 80% 25%;
+    --cultural: 25 65% 35%;
+    
+    --gradient-hero: linear-gradient(135deg, hsl(142 76% 36%) 0%, hsl(32 95% 44%) 100%);
+    --gradient-mountain: linear-gradient(180deg, hsl(210 30% 35%) 0%, hsl(210 40% 25%) 100%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .hero-text {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:scale-105;
+  }
+
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-responsive {
+    @apply max-w-7xl mx-auto section-padding;
+  }
+
+  .gradient-overlay {
+    background: var(--gradient-overlay);
+  }
+
+  .mountain-gradient {
+    background: var(--gradient-mountain);
+  }
+
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+}

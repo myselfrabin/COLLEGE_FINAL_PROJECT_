@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "placesToGo": "Places to Go",
+    "thingsToDo": "Things to Do",
+    "festivals": "Festivals & Events",
+    "planTrip": "Plan Your Trip",
+    "travelUpdates": "Travel Updates"
+  },
+  "hero": {
+    "title": "Explore Koshi Province",
+    "subtitle": "Discover the natural beauty, rich culture, and adventurous opportunities of Eastern Nepal",
+    "exploreButton": "Explore Now",
+    "planButton": "Plan Your Trip"
+  },
+  "places": {
+    "dharan": {
+      "name": "Dharan",
+      "description": "A beautiful city where nature, culture, and modernity converge.",
+      "intro": "Dharan is a sub-metropolitan city in Sunsari district of Province 1, known for its clean roads, vibrant culture, and as the gateway to eastern Nepal. It is home to various ethnic groups like Rai, Limbu, Newar, Brahmin, Gurung, and more.",
+      "howToReach": "Reachable by road from Kathmandu (6-7 hours) or by flight to Biratnagar followed by a 45-minute drive. Public buses, taxis, and autos are easily available.",
+      "culture": "Ethnic groups including Rai, Limbu, Newar, Gurung, and Tamang celebrate diverse festivals such as Dashain, Tihar, Maghe Sankranti, Udhauli, Ubhauli, Chasok Tangnam, and Lhosar. Traditional dances and rituals are well preserved.",
+      "food": "Delicious local cuisines like Sekuwa, Momo, Tumba, Sel Roti, Sukuti, and Gundruk-Sinki can be savored here.",
+      "hiddenDestinations": "Namaste Waterfall, Pindeshwor Temple, Buddha Subba Temple, Dantakali Temple, Chinde Hill, Vishnupaduka, Shiv Jatta, Batabhunge Palace"
+    },
+    "ilam": {
+      "name": "Ilam",
+      "description": "Famous for expansive tea gardens, lush hills, and enchanting natural beauty.",
+      "intro": "Ilam is known for its sprawling tea plantations, mist-covered hills, and cool climate throughout the year. It is often called the 'Queen of Hills'.",
+      "howToReach": "Accessible by a scenic 12-14 hour mountain road journey from Kathmandu or via a short flight to Bhadrapur followed by a 2-hour drive.",
+      "culture": "Home to Rai, Limbu, and Gurung communities, Ilam showcases rich Nepali hill culture with traditional farming, colorful local festivals, and warm hospitality.",
+      "food": "Known for fresh tea, organic vegetables, tasty dairy products, and traditional Nepali dishes like Gundruk, Dhindo, and local pickles.",
+      "hiddenDestinations": "Besides famous tea gardens, explore Antu Hill, sacred Maipokhari lake, and Sandakphu viewpoint."
+    },
+    "koshiTappu": {
+      "name": "Koshi Tappu",
+      "description": "Famous wildlife reserve and Ramsar site known for diverse bird species and rich biodiversity.",
+      "intro": "Koshi Tappu Wildlife Reserve is Nepal's oldest protected area, home to migratory birds, rare wild buffaloes, and rich ecological diversity.",
+      "howToReach": "About 5-6 hours by vehicle from Kathmandu via East-West Highway, or accessible from Biratnagar with local transport facilities.",
+      "culture": "Inhabited by Tharu and other indigenous communities with unique forest-based culture, traditional fishing methods, and colorful festivals.",
+      "food": "Visitors can enjoy fresh fish from the Koshi River, Tharu dishes like Dhikri and Ghongi, and locally grown organic rice and vegetables.",
+      "hiddenDestinations": "Koshi Barrage, bird-watching towers, and Tharu villages offering cultural experiences."
+    },
+    "panchthar": {
+      "name": "Panchthar",
+      "description": "A beautiful hilly district known for natural beauty and Limbu culture.",
+      "intro": "Panchthar is a hill district in Eastern Nepal famous for its green forests and rich local traditions.",
+      "howToReach": "Accessible by a scenic hilly road journey from Birtamode.",
+      "culture": "Limbu traditions, local dances, and indigenous customs are prominent here.",
+      "food": "Delicious Limbu dishes like Wachaipa and Kinema are popular.",
+      "hiddenDestinations": "Natural and cultural sites such as Gufa Pokhari and Siddhi Thumka."
+    },
+    "basantapur": {
+      "name": "Basantapur",
+      "description": "A peaceful gateway with rhododendron forests and serene environment.",
+      "intro": "Basantapur is located in the Tinjure-Milke-Jaljale area, known for nature and cultural diversity.",
+      "howToReach": "Accessible by road via Dharan, then through Dhankuta and Hile.",
+      "culture": "A blend of Rai and Limbu cultures.",
+      "food": "Local Nepali and Rai-Limbu mixed cuisine is available.",
+      "hiddenDestinations": "Tinjuure Hill, Yalambar Park, and viewpoint towers."
+    },
+    "halasiMahadev": {
+      "name": "Halasi Mahadev",
+      "description": "A religious site featuring a Shiva temple and tranquil surroundings.",
+      "intro": "Halasi Mahadev is a holy place where devotees worship Lord Shiva.",
+      "howToReach": "Reachable by road from Dharan or Bhojpur.",
+      "culture": "Hindu festivals and regular worship are observed here.",
+      "food": "Traditional vegetarian food is served during religious occasions.",
+      "hiddenDestinations": "Nearby forest trails and hills are ideal for peaceful walks."
+    },
+    "bhojpur": {
+      "name": "Bhojpur",
+      "description": "Known for traditional kukri production and scenic hilly landscapes.",
+      "intro": "Bhojpur is famous for its blacksmith kukris and beautiful mountain views.",
+      "howToReach": "Accessible by flight to Bhojpur Airport or road via Dharan and Hile.",
+      "culture": "Kiranti Rai culture is predominant.",
+      "food": "Local organic and traditional Rai dishes are well-liked.",
+      "hiddenDestinations": "Shalpa Pokhari and distant hills offer tranquil spots."
+    },
+    "taplejung": {
+      "name": "Taplejung",
+      "description": "A remote hilly area famous for Kanchenjunga views and biodiversity.",
+      "intro": "Taplejung is a cultural melting pot of Sherpa, Limbu, and Tibetan communities.",
+      "howToReach": "Accessible by road via Ilam and Phidim or flight to Suketar Airport.",
+      "culture": "Influenced by Sherpa, Limbu, and Tibetan traditions.",
+      "food": "Delicious local foods include Thumba, Sukuti, and millet dishes.",
+      "hiddenDestinations": "Pathibhara Temple, Ghunsa village, and hidden waterfalls are popular spots."
+    }
+  },
+  "activities": {
+    "trekking": "Trekking",
+    "boating": "Boating",
+    "paragliding": "Paragliding",
+    "rafting": "Rafting and Kayaking",
+    "safari": "Jungle Safari",
+    "camping": "Camping",
+    "hiking": "Hiking"
+  }
+}
